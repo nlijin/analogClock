@@ -21,6 +21,13 @@ body {
   position: relative;
 }
 
+@media (max-width: 600px) {
+  .clock {
+    width: 80vw;
+    height: 80vw;
+  }
+}
+
 .clock .number {
   --rotation: 0;
   position: absolute;
